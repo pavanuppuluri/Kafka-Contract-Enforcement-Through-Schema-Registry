@@ -1,0 +1,12 @@
+{
+  "namespace": "kafka.schemas",
+  "type": "record",
+  "name": "Student",
+  "fields": [
+    {"name": "firstname", "type": "string"},
+    //{"name": "middlename", "type": "string"},
+    {"name": "lastname", "type": "string"},
+    {"name": "age",  "type": "int"},
+    {"name": "section", "type": "string"}
+  ]
+}

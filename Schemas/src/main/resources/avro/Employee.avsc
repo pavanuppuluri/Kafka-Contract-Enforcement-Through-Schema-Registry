@@ -1,0 +1,11 @@
+{
+  "namespace": "kafka.schemas",
+  "type": "record",
+  "name": "Employee",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "age",  "type": "int"},
+    {"name": "salary",  "type": "float"}
+  ]
+}
